@@ -1,37 +1,104 @@
-for i in range(int(input(""))):
-    B, B2 = input("").split()
+import turtle
+tortuguita = turtle.Turtle()
+#D
+for i in range(300):
+  tortuguita.forward(0.8)
+  tortuguita.left(0.6)
+  tortuguita.speed(10)
+  
+for i in range(300):
+  tortuguita.left(0.3)
+  
+for i in range (300):
+  tortuguita.forward(0.52)
 
-    if B == B2:
-        gana = "¡Otra vez!"
-    elif B == "piedra":
-        if B2 == "tijera" or B2 == "lagarto":
-            gana = B
-        else:
-            gana = B2
-    elif B == "papel":
-        if B2 == "piedra" or B2 == "Holk":
-            gana = B
-        else:
-            gana = B2
-    elif B == "tijera":
-        if B2 == "lagarto" or B2 == "papel":
-            gana = B
-        else:
-            gana = B2
-    elif B == "lagarto":
-        if B2 == "Holk" or B2 == "papel":
-            gana = B
-        else:
-            gana = B2
-    elif B == "Holk":
-        if B2 == "tijera" or B2 == "piedra":
-            gana = B
-        else:
-            gana = B2
+for i in range (300):
+  tortuguita.left(0.3)
 
-    if gana == B:
-        gana = "¡LaVidaEsdura!"
-    elif gana == B2:
-        gana = "¡Siempre hay un próximo semestre!"
 
-    print("Caso #%i:" %(i + 1), gana)
+for i in range (300):
+  tortuguita.forward(0.5)
+#a
+for i in range (300):
+  tortuguita.left(0.8)
+  tortuguita.speed(10)
+  tortuguita.forward(0.8)
+
+for i in range(300):
+  tortuguita.forward(0.8)
+  tortuguita.left(0.8)
+  tortuguita.speed(10)
+
+for i in range (300):
+  tortuguita.left(0.51)
+
+for i in range(300):
+  tortuguita.forward(0.285)
+
+for i in range (300):
+  tortuguita.left(0.28999999)
+#v
+for i in range (300):
+  tortuguita.forward(0.25)
+
+for i in range(300):
+  tortuguita.left(0.2)
+
+for i in range(300):
+  tortuguita.forward(0.4)
+
+for i in range (300):
+  tortuguita.right(0.6)
+
+for i in range(300):
+  tortuguita.forward(0.4)
+
+for i in range(300):
+  tortuguita.left(0.8)
+
+for i in range(300):
+  tortuguita.forward(0.4)
+
+for i in range(300):
+  tortuguita.right(0.6)
+
+for i in range(300):
+  tortuguita.forward(0.4)
+#i
+for i in range(300):
+  tortuguita.left(0.2)
+
+for i in range(300):
+  tortuguita.forward(0.3)
+
+for i in range(300):
+  tortuguita.left(0.3)
+
+for i in range(300):
+  tortuguita.forward(0.4)
+
+for i in range(300):
+  tortuguita.right(0.6)
+
+for i in range(300):
+  tortuguita.forward(0.4)
+
+for i in range(300):
+  tortuguita.left(0.3)
+
+for i in range(300):
+  tortuguita.forward(0.2)
+#d
+for i in range(300):
+  tortuguita.forward(0.8)
+  tortuguita.left(0.6)
+  tortuguita.speed(10)
+  
+for i in range(300):
+  tortuguita.left(0.3)
+  
+for i in range (300):
+  tortuguita.forward(0.52)
+
+for i in range (300):
+  tortuguita.left(0.3)
